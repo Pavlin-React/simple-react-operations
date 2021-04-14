@@ -1,13 +1,16 @@
-
-import './App.css';
+import Navbar from './Navbar'
+import Home from './Home'
+import './App.css'
 
 function App() {
-  let title = 'Welcome to the new block'
+  
+
 
   return (
     <div className="App">
+      <Navbar />
       <div className='content'>
-        <h1> { title } </h1>
+        <h1><Home /></h1>
       </div>
     </div>
   );
